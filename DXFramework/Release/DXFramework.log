@@ -1,0 +1,57 @@
+﻿Build started 17/08/2016 14:40:24.
+     1>Project "\\vmwfil01\homedrives23$\p513692\Visual Studio 2013\Projects\Shaders\DXFramework\DXFramework.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BaseApplication.cpp BaseMesh.cpp BaseShader.cpp Camera.cpp CubeMesh.cpp D3D.cpp Input.cpp Light.cpp Mesh.cpp Model.cpp OrthoMesh.cpp PlaneMesh.cpp PointMesh.cpp QuadMesh.cpp RenderTexture.cpp SphereMesh.cpp System.cpp TessellationMesh.cpp Texture.cpp Timer.cpp TokenStream.cpp TriangleMesh.cpp
+         BaseApplication.cpp
+         BaseMesh.cpp
+         BaseShader.cpp
+         Camera.cpp
+         CubeMesh.cpp
+         D3D.cpp
+         Input.cpp
+         Light.cpp
+         Mesh.cpp
+         Model.cpp
+         OrthoMesh.cpp
+         PlaneMesh.cpp
+         PointMesh.cpp
+         QuadMesh.cpp
+         RenderTexture.cpp
+         SphereMesh.cpp
+         System.cpp
+         TessellationMesh.cpp
+         Texture.cpp
+         Timer.cpp
+         Compiling...
+         TokenStream.cpp
+         TriangleMesh.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"\\vmwfil01\homedrives23$\p513692\Visual Studio 2013\Projects\Shaders\Release\DXFramework.lib" /NOLOGO /LTCG Release\BaseApplication.obj
+         Release\BaseMesh.obj
+         Release\BaseShader.obj
+         Release\Camera.obj
+         Release\CubeMesh.obj
+         Release\D3D.obj
+         Release\Input.obj
+         Release\Light.obj
+         Release\Mesh.obj
+         Release\Model.obj
+         Release\OrthoMesh.obj
+         Release\PlaneMesh.obj
+         Release\PointMesh.obj
+         Release\QuadMesh.obj
+         Release\RenderTexture.obj
+         Release\SphereMesh.obj
+         Release\stdafx.obj
+         Release\System.obj
+         Release\TessellationMesh.obj
+         Release\Texture.obj
+         Release\Timer.obj
+         Release\TokenStream.obj
+         Release\TriangleMesh.obj
+         DXFramework.vcxproj -> \\vmwfil01\homedrives23$\p513692\Visual Studio 2013\Projects\Shaders\Release\DXFramework.lib
+     1>Done Building Project "\\vmwfil01\homedrives23$\p513692\Visual Studio 2013\Projects\Shaders\DXFramework\DXFramework.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:37.33

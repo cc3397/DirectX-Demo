@@ -1,0 +1,67 @@
+﻿Build started 07/12/2017 21:34:29.
+     1>Project "C:\Users\CIARAN\Desktop\CMP301 - 1500396 - Ciaran Carr\Source\DXFramework\DXFramework.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\DXFramework.pdb" /Gd /TP /analyze- /errorReport:prompt BaseApplication.cpp BaseMesh.cpp BaseShader.cpp Camera.cpp CubeMesh.cpp D3D.cpp imgui.cpp imgui_demo.cpp imgui_draw.cpp imgui_impl_dx11.cpp Input.cpp Light.cpp Model.cpp OrthoMesh.cpp PlaneMesh.cpp PointMesh.cpp QuadMesh.cpp RenderTexture.cpp SphereMesh.cpp System.cpp TessellationMesh.cpp TextureManager.cpp Timer.cpp TokenStream.cpp TriangleMesh.cpp
+         TriangleMesh.cpp
+         TokenStream.cpp
+         Timer.cpp
+         TextureManager.cpp
+         TessellationMesh.cpp
+         System.cpp
+         SphereMesh.cpp
+     1>c:\users\ciaran\desktop\cmp301 - 1500396 - ciaran carr\source\dxframework\spheremesh.cpp(541): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ciaran\desktop\cmp301 - 1500396 - ciaran carr\source\dxframework\spheremesh.cpp(542): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ciaran\desktop\cmp301 - 1500396 - ciaran carr\source\dxframework\spheremesh.cpp(544): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+         RenderTexture.cpp
+         QuadMesh.cpp
+         PointMesh.cpp
+         PlaneMesh.cpp
+         OrthoMesh.cpp
+         Model.cpp
+         Light.cpp
+         Input.cpp
+         imgui_impl_dx11.cpp
+         imgui_draw.cpp
+         imgui_demo.cpp
+         imgui.cpp
+         D3D.cpp
+         Generating Code...
+         Compiling...
+         CubeMesh.cpp
+         Camera.cpp
+         BaseShader.cpp
+         BaseMesh.cpp
+         BaseApplication.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"C:\Users\CIARAN\Desktop\CMP301 - 1500396 - Ciaran Carr\Source\Debug\DXFramework.lib" DirectXTK.lib /LIBPATH:"\\vmwfil01\homedrives23$\p513692\Visual Studio 2013\Projects\Shaders\DirectXTK\Bin\Desktop_2013\Win32\Debug\DirectXT.E0B52AE7.tlog" /NOLOGO /ignore:4006 /ignore:4221 Debug\BaseApplication.obj
+         Debug\BaseMesh.obj
+         Debug\BaseShader.obj
+         Debug\Camera.obj
+         Debug\CubeMesh.obj
+         Debug\D3D.obj
+         Debug\imgui.obj
+         Debug\imgui_demo.obj
+         Debug\imgui_draw.obj
+         Debug\imgui_impl_dx11.obj
+         Debug\Input.obj
+         Debug\Light.obj
+         Debug\Model.obj
+         Debug\OrthoMesh.obj
+         Debug\PlaneMesh.obj
+         Debug\PointMesh.obj
+         Debug\QuadMesh.obj
+         Debug\RenderTexture.obj
+         Debug\SphereMesh.obj
+         Debug\System.obj
+         Debug\TessellationMesh.obj
+         Debug\TextureManager.obj
+         Debug\Timer.obj
+         Debug\TokenStream.obj
+         Debug\TriangleMesh.obj
+         DXFramework.vcxproj -> C:\Users\CIARAN\Desktop\CMP301 - 1500396 - Ciaran Carr\Source\Debug\DXFramework.lib
+     1>Done Building Project "C:\Users\CIARAN\Desktop\CMP301 - 1500396 - Ciaran Carr\Source\DXFramework\DXFramework.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:23.04

@@ -1,0 +1,55 @@
+﻿Build started 07/12/2017 21:34:52.
+     1>Project "C:\Users\CIARAN\Desktop\CMP301 - 1500396 - Ciaran Carr\Source\E09_Tesselation\E09_Tesselation.vcxproj" on node 2 (Build target(s)).
+     1>FxCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T ps_5_0 /Fo "colour_ps.cso" /Od /Zi shaders\colour_ps.hlsl 
+         compilation object save succeeded; see C:\Users\CIARAN\Desktop\CMP301 - 1500396 - Ciaran Carr\Source\E09_Tesselation\colour_ps.cso
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T vs_5_0 /Fo "colour_vs.cso" /Od /Zi shaders\colour_vs.hlsl 
+         compilation object save succeeded; see C:\Users\CIARAN\Desktop\CMP301 - 1500396 - Ciaran Carr\Source\E09_Tesselation\colour_vs.cso
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T ps_5_0 /Fo "depth_ps.cso" /Od /Zi shaders\depth_ps.hlsl 
+         compilation object save succeeded; see C:\Users\CIARAN\Desktop\CMP301 - 1500396 - Ciaran Carr\Source\E09_Tesselation\depth_ps.cso
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T vs_5_0 /Fo "depth_vs.cso" /Od /Zi shaders\depth_vs.hlsl 
+         compilation object save succeeded; see C:\Users\CIARAN\Desktop\CMP301 - 1500396 - Ciaran Carr\Source\E09_Tesselation\depth_vs.cso
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T ps_5_0 /Fo "shadow_ps.cso" /Od /Zi shaders\shadow_ps.hlsl 
+     1>C:\Users\CIARAN\Desktop\CMP301 - 1500396 - Ciaran Carr\Source\E09_Tesselation\shaders\shadow_ps.hlsl(52,16-71): warning X3206: 'Sample': implicit truncation of vector type
+         
+         compilation object save succeeded; see C:\Users\CIARAN\Desktop\CMP301 - 1500396 - Ciaran Carr\Source\E09_Tesselation\shadow_ps.cso
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T vs_5_0 /Fo "shadow_vs.cso" /Od /Zi shaders\shadow_vs.hlsl 
+         compilation object save succeeded; see C:\Users\CIARAN\Desktop\CMP301 - 1500396 - Ciaran Carr\Source\E09_Tesselation\shadow_vs.cso
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T ds_5_0 /Fo "tessellation_ds.cso" /Od /Zi shaders\tessellation_ds.hlsl 
+         compilation object save succeeded; see C:\Users\CIARAN\Desktop\CMP301 - 1500396 - Ciaran Carr\Source\E09_Tesselation\tessellation_ds.cso
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T hs_5_0 /Fo "tessellation_hs.cso" /Od /Zi shaders\tessellation_hs.hlsl 
+         compilation object save succeeded; see C:\Users\CIARAN\Desktop\CMP301 - 1500396 - Ciaran Carr\Source\E09_Tesselation\tessellation_hs.cso
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T ps_5_0 /Fo "tessellation_ps.cso" /Od /Zi shaders\tessellation_ps.hlsl 
+         compilation object save succeeded; see C:\Users\CIARAN\Desktop\CMP301 - 1500396 - Ciaran Carr\Source\E09_Tesselation\tessellation_ps.cso
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T vs_5_0 /Fo "tessellation_vs.cso" /Od /Zi shaders\tessellation_vs.hlsl 
+         compilation object save succeeded; see C:\Users\CIARAN\Desktop\CMP301 - 1500396 - Ciaran Carr\Source\E09_Tesselation\tessellation_vs.cso
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\CIARAN\Desktop\CMP301 - 1500396 - Ciaran Carr\Source\\Debug" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt App1.cpp ColourShader.cpp DepthShader.cpp Main.cpp ShadowShader.cpp TessellationShader.cpp
+         TessellationShader.cpp
+         ShadowShader.cpp
+         Main.cpp
+         DepthShader.cpp
+         ColourShader.cpp
+         App1.cpp
+     1>c:\users\ciaran\desktop\cmp301 - 1500396 - ciaran carr\source\e09_tesselation\app1.cpp(44): warning C4305: '=': truncation from 'double' to 'float'
+     1>c:\users\ciaran\desktop\cmp301 - 1500396 - ciaran carr\source\e09_tesselation\app1.cpp(168): warning C4305: '+=': truncation from 'double' to 'float'
+     1>c:\users\ciaran\desktop\cmp301 - 1500396 - ciaran carr\source\e09_tesselation\app1.cpp(191): warning C4305: 'argument': truncation from 'double' to 'float'
+         Generating Code...
+     1>c:\users\ciaran\desktop\cmp301 - 1500396 - ciaran carr\source\e09_tesselation\app1.cpp(256): warning C4715: 'App1::getDistance': not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\CIARAN\Desktop\CMP301 - 1500396 - Ciaran Carr\Source\Debug\E09_Tesselation.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\CIARAN\Desktop\CMP301 - 1500396 - Ciaran Carr\Source\/Debug" d3d11.lib DXFramework.lib dxgi.lib D3DCompiler.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\CIARAN\Desktop\CMP301 - 1500396 - Ciaran Carr\Source\Debug\E09_Tesselation.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\CIARAN\Desktop\CMP301 - 1500396 - Ciaran Carr\Source\Debug\E09_Tesselation.lib" /MACHINE:X86 Debug\App1.obj
+         Debug\ColourShader.obj
+         Debug\DepthShader.obj
+         Debug\Main.obj
+         Debug\ShadowShader.obj
+         Debug\TessellationShader.obj
+         "C:\Users\CIARAN\Desktop\CMP301 - 1500396 - Ciaran Carr\Source\Debug\DXFramework.lib"
+     1>DXFramework.lib(WICTextureLoader.obj) : warning LNK4099: PDB 'DirectXTK.pdb' was not found with 'DXFramework.lib(WICTextureLoader.obj)' or at 'C:\Users\CIARAN\Desktop\CMP301 - 1500396 - Ciaran Carr\Source\Debug\DirectXTK.pdb'; linking object as if no debug info
+     1>DXFramework.lib(pch.obj) : warning LNK4099: PDB 'DirectXTK.pdb' was not found with 'DXFramework.lib(pch.obj)' or at 'C:\Users\CIARAN\Desktop\CMP301 - 1500396 - Ciaran Carr\Source\Debug\DirectXTK.pdb'; linking object as if no debug info
+     1>DXFramework.lib(DDSTextureLoader.obj) : warning LNK4099: PDB 'DirectXTK.pdb' was not found with 'DXFramework.lib(DDSTextureLoader.obj)' or at 'C:\Users\CIARAN\Desktop\CMP301 - 1500396 - Ciaran Carr\Source\Debug\DirectXTK.pdb'; linking object as if no debug info
+         E09_Tesselation.vcxproj -> C:\Users\CIARAN\Desktop\CMP301 - 1500396 - Ciaran Carr\Source\Debug\E09_Tesselation.exe
+     1>Done Building Project "C:\Users\CIARAN\Desktop\CMP301 - 1500396 - Ciaran Carr\Source\E09_Tesselation\E09_Tesselation.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.44
